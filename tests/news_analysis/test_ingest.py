@@ -1,7 +1,5 @@
 from datetime import datetime, timezone
 
-import pytest
-
 from news_analysis.ingest import (
     PHASE_1_ENTITY_TYPES,
     PHASE_1_GROUP_ID,

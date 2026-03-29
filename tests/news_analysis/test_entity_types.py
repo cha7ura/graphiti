@@ -1,21 +1,17 @@
 from pydantic import BaseModel
 
 from news_analysis.entity_types import (
+    EconomicIndicator,
     Event,
+    GovernmentBody,
+    InternationalEntity,
     Location,
+    NewsOutlet,
     Organization,
     Person,
     Policy,
-)
-
-
-from news_analysis.entity_types import (
-    EconomicIndicator,
-    GovernmentBody,
-    InternationalEntity,
-    NewsOutlet,
-    Politician,
     PoliticalParty,
+    Politician,
 )
 
 

@@ -1,4 +1,3 @@
-from datetime import datetime
 from typing import Any
 
 from pydantic import BaseModel
@@ -14,8 +13,8 @@ from news_analysis.entity_types import (
     Organization,
     Person,
     Policy,
-    Politician,
     PoliticalParty,
+    Politician,
 )
 
 PHASE_1_GROUP_ID = 'sri-lanka-news-discovery'

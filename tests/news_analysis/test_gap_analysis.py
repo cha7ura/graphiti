@@ -1,4 +1,3 @@
-import pytest
 
 from news_analysis.gap_analysis import (
     ANALYSIS_QUERIES,
